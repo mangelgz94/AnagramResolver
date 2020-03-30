@@ -19,7 +19,7 @@ class AnagramResolver
     protected $anagramArray;
 
 
-    public function getAnagramValues()
+    public function processAnagramArray()
     {
         $array = $this->getAnagramArray();
         $value = array_shift($array);
